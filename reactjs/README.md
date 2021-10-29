@@ -68,3 +68,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### `Creación de los input`
+- Input para Nombre, Correo, Clave, 
+- Select del Pais.
+
+### `Creación de Cabecera y pie de páginas`
+- Pie de página basado en Bootstrap, con color de fondo de acuerdo a Figma.
+- Imagen ajustado a la izquierda en png para ir de acuerdo al color del pie de página.

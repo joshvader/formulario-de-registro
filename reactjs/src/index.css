@@ -11,3 +11,52 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#btn{
+  background-color:orange;
+}
+
+#footer{
+/*display: flex;*/
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 36px;
+
+background: #1F2235;
+border-radius: 18px 18px 0px 0px;
+}
+
+#text {
+ color: orange;
+}
+#text a{
+ color: white;  
+}
+/*logo en el footer*/
+#codealo{
+  position: absolute;
+  height: 127px;
+  width: 15%;
+  margin: -51px;
+  padding: 10px;
+
+}
+/*Centrado de Placeholder*/
+::placeholder{
+  text-align: center;
+}
+
+@media  only screen and (max-width: 360px){
+  #codealo{
+    visibility: hidden;
+   /* position: absolute;
+    left: 24.28%;
+    right: 0.07%;
+    top: 0%;
+    bottom: 11.86%;
+    */
+    
+  }
+  
+}
