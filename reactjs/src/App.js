@@ -4,29 +4,22 @@ import Footer from './components/Footer';
 import Formulario from './components/Formulario';
 import Header from './components/Header';
 import styled from 'styled-components';
-import Modal from './components/Modal';
+
+
+
 
 
 function App() {
-  
+   
 
-
-
-
-
-  return (
+	return (
     <div>
       <Header/>
       <Formulario/>
       <br/>
-      <Modal>
-        <Contenido>
-        <h1>Ventana Modal</h1>
-        <p>Muchas gracias por tu Registro</p>
-        </Contenido>
-        
-      </Modal>
+      
       <br/>
+	  
       <Footer/>
     </div>
       

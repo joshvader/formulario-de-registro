@@ -3,10 +3,13 @@ import React,{Fragment} from 'react'
 import { useState } from 'react'
 import {useForm} from 'react-hook-form'
 import styled from 'styled-components'
+import Modal from './Modal'
+
 const Formulario = () => {
-    const [estadoModal1, cambiarEstadoModal1] = useState(true);
+    const [estadoModal1, cambiarEstadoModal1] = useState(false);
     const { register, handleSubmit, formState: { errors } } = useForm();
     const onSubmit = (evento) => {
+<<<<<<< HEAD
       console.log(evento);
       cambiarEstadoModal1(true);
     
@@ -15,6 +18,17 @@ const Formulario = () => {
     const ShowModal = (evento) =>{
        cambiarEstadoModal1(true);
     }
+=======
+       console.log(evento);
+       cambiarEstadoModal1(true);
+     
+     }
+
+     const ShowModal = (evento) =>{
+        cambiarEstadoModal1(true);
+     }
+   
+>>>>>>> JoshVC
 
     return (
         <Fragment>
@@ -37,7 +51,11 @@ const Formulario = () => {
 
             <label className="d-block m-2">Pais</label>
             <select className="col-6  my-2 m-2" placeholder="Pais">
+<<<<<<< HEAD
                     <option >Pais</option>
+=======
+                    
+>>>>>>> JoshVC
                     <option >Colombia</option>
                     <option >Argentina</option>
                     <option >Brasil</option>
@@ -102,7 +120,7 @@ const Formulario = () => {
         <div class="container-fluid h-100 p-2"> 
     		<div class="row w-100 align-items-center">
     			<div class="col text-center">
-    				<button class="btn regular-button" id="btn">Registrarse</button>
+    				<button class="btn regular-button" id="btn" onclick= {ShowModal} >Registrarse</button>
     			</div>	
     		</div>
     
@@ -110,10 +128,42 @@ const Formulario = () => {
     	</div>
                 
             </form>
+            
             </div>
+            <Modal
+            estado={estadoModal1}
+            cambiarEstado={cambiarEstadoModal1}
+            >
+              <Contenido>
+              <h1>Ventana Modal</h1>
+                <p>Muchas gracias por tu Registro</p>
+              </Contenido>
+                
+            </Modal>
             
         </Fragment>
     )
 }
 
 export default Formulario
+
+ 
+const Contenido = styled.div`
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	h1 {
+		font-size: 42px;
+		font-weight: 700;
+		margin-bottom: 10px;
+	}
+	p {
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+	img {
+		width: 100%;
+		vertical-align: top;
+		border-radius: 3px;
+	}
+`;
