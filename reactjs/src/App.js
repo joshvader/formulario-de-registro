@@ -4,7 +4,7 @@ import Footer from './components/Footer';
 import Formulario from './components/Formulario';
 import Header from './components/Header';
 import styled from 'styled-components';
-import Modal from './components/Modal';
+
 
 
 
