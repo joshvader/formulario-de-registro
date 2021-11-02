@@ -36,12 +36,12 @@ const Formulario = () => {
             
 
             <label className="d-block m-2">Pais</label>
-            <select value="Pais"className="col-6  my-2 m-2" placeholder="Pais">
-                    <option value="">Pais</option>
-                    <option value="Colombia">Colombia</option>
-                    <option value="Argentina">Argentina</option>
-                    <option value="Brasil">Brasil</option>
-                    <option value="Chile">Chile</option>
+            <select className="col-6  my-2 m-2" placeholder="Pais">
+                    <option >Pais</option>
+                    <option >Colombia</option>
+                    <option >Argentina</option>
+                    <option >Brasil</option>
+                    <option>Chile</option>
             </select>
 
             <label className="d-block m-2">Dirección</label>
