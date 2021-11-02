@@ -6,11 +6,15 @@ import styled from 'styled-components'
 const Formulario = () => {
     const [estadoModal1, cambiarEstadoModal1] = useState(true);
     const { register, handleSubmit, formState: { errors } } = useForm();
-    const onSubmit = evento => {
-       console.log(evento);
-       
+    const onSubmit = (evento) => {
+      console.log(evento);
+      cambiarEstadoModal1(true);
+    
     }
-   
+
+    const ShowModal = (evento) =>{
+       cambiarEstadoModal1(true);
+    }
 
     return (
         <Fragment>
