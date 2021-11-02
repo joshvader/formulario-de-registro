@@ -21,7 +21,7 @@ const Formulario = () => {
                 {...register("name", {
                     required: {
                         value: true,
-                        message: "El campo es obligatorio"
+                        message: "El campo es obligatorio, oh si"
                     }
                 })}
                 />
