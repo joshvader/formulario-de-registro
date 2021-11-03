@@ -118,6 +118,7 @@ const Formulario = () => {
             <Modal
             estado={estadoModal1}
             cambiarEstado={cambiarEstadoModal1}
+            titulo="¡Hola!"
             >
               <Contenido>
               <h1>Ventana Modal</h1>

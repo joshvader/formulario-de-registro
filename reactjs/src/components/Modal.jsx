@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-const Modal = ({children, estado, cambiarEstado}) => {
+const Modal = ({children, estado, cambiarEstado, titulo}) => {
     
     
     return (
@@ -9,7 +9,7 @@ const Modal = ({children, estado, cambiarEstado}) => {
            <Overley>
                 <ContenedorModal>
                     <EncabezadoModal>
-                        <h3>Titulo</h3>
+                        <h3>{titulo}</h3>
                     </EncabezadoModal>
 
                     <BotonCerrar onClick={()=> cambiarEstado(false)}>
