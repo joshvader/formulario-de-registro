@@ -11,10 +11,11 @@ const Formulario = () => {
     const onSubmit = (evento) => {
 
       console.log(evento);
+      /*Onclick al registrar*/
       cambiarEstadoModal1(true);
     
     }
-
+  /*Mostrar ventana Modal*/ 
    const ShowModal = (evento) =>{
         cambiarEstadoModal1(true);
      }
@@ -121,10 +122,11 @@ const Formulario = () => {
             <Modal
             estado={estadoModal1}
             cambiarEstado={cambiarEstadoModal1}
+            titulo="¡Hola!"
             >
               <Contenido>
-              <h1>Ventana Modal</h1>
-                <p>Muchas gracias por tu Registro</p>
+              <h1>¡Bienvenido!</h1>
+                <p>Muchas gracias por tu Registro.</p>
               </Contenido>
                 
             </Modal>
