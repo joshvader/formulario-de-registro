@@ -9,26 +9,17 @@ const Formulario = () => {
     const [estadoModal1, cambiarEstadoModal1] = useState(false);
     const { register, handleSubmit, formState: { errors } } = useForm();
     const onSubmit = (evento) => {
-<<<<<<< HEAD
+
       console.log(evento);
       cambiarEstadoModal1(true);
     
     }
 
-    const ShowModal = (evento) =>{
-       cambiarEstadoModal1(true);
-    }
-=======
-       console.log(evento);
-       cambiarEstadoModal1(true);
-     
-     }
-
-     const ShowModal = (evento) =>{
+   const ShowModal = (evento) =>{
         cambiarEstadoModal1(true);
      }
    
->>>>>>> JoshVC
+
 
     return (
         <Fragment>
@@ -51,11 +42,8 @@ const Formulario = () => {
 
             <label className="d-block m-2">Pais</label>
             <select className="col-6  my-2 m-2" placeholder="Pais">
-<<<<<<< HEAD
+
                     <option >Pais</option>
-=======
-                    
->>>>>>> JoshVC
                     <option >Colombia</option>
                     <option >Argentina</option>
                     <option >Brasil</option>
