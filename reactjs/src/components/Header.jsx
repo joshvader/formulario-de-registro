@@ -6,7 +6,8 @@ const Header = () => {
             <div className="text-center">
                 <img className ="img-fluid" src="./images/codealo.png" />
             </div>
-            <h2 className="m-5">¡Bienvenidos!</h2>
+            <h2 className="m-5 text-center">¡Bienvenidos!</h2>
+        
         </div>
     )
 }
