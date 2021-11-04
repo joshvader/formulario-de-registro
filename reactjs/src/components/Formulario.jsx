@@ -44,7 +44,7 @@ const Formulario = () => {
             <label className="d-block m-2">Pais</label>
             <select className="col-6  my-2 m-2" placeholder="Pais">
 
-                    <option >Pais</option>
+                    <option >Ecuador</option>
                     <option >Colombia</option>
                     <option >Argentina</option>
                     <option >Brasil</option>
