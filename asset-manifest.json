@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/formulario-de-registro/reactjs/static/css/main.55f51ede.chunk.css",
-    "main.js": "/formulario-de-registro/reactjs/static/js/main.013e72a3.chunk.js",
-    "main.js.map": "/formulario-de-registro/reactjs/static/js/main.013e72a3.chunk.js.map",
-    "runtime-main.js": "/formulario-de-registro/reactjs/static/js/runtime-main.93d0c548.js",
-    "runtime-main.js.map": "/formulario-de-registro/reactjs/static/js/runtime-main.93d0c548.js.map",
-    "static/js/2.7c23de3c.chunk.js": "/formulario-de-registro/reactjs/static/js/2.7c23de3c.chunk.js",
-    "static/js/2.7c23de3c.chunk.js.map": "/formulario-de-registro/reactjs/static/js/2.7c23de3c.chunk.js.map",
-    "static/js/3.4949d8fb.chunk.js": "/formulario-de-registro/reactjs/static/js/3.4949d8fb.chunk.js",
-    "static/js/3.4949d8fb.chunk.js.map": "/formulario-de-registro/reactjs/static/js/3.4949d8fb.chunk.js.map",
-    "index.html": "/formulario-de-registro/reactjs/index.html",
-    "static/css/main.55f51ede.chunk.css.map": "/formulario-de-registro/reactjs/static/css/main.55f51ede.chunk.css.map",
-    "static/js/2.7c23de3c.chunk.js.LICENSE.txt": "/formulario-de-registro/reactjs/static/js/2.7c23de3c.chunk.js.LICENSE.txt"
+    "main.css": "/formulario-de-registro/static/css/main.55f51ede.chunk.css",
+    "main.js": "/formulario-de-registro/static/js/main.013e72a3.chunk.js",
+    "main.js.map": "/formulario-de-registro/static/js/main.013e72a3.chunk.js.map",
+    "runtime-main.js": "/formulario-de-registro/static/js/runtime-main.bab573ec.js",
+    "runtime-main.js.map": "/formulario-de-registro/static/js/runtime-main.bab573ec.js.map",
+    "static/js/2.c09e4b1a.chunk.js": "/formulario-de-registro/static/js/2.c09e4b1a.chunk.js",
+    "static/js/2.c09e4b1a.chunk.js.map": "/formulario-de-registro/static/js/2.c09e4b1a.chunk.js.map",
+    "static/js/3.4949d8fb.chunk.js": "/formulario-de-registro/static/js/3.4949d8fb.chunk.js",
+    "static/js/3.4949d8fb.chunk.js.map": "/formulario-de-registro/static/js/3.4949d8fb.chunk.js.map",
+    "index.html": "/formulario-de-registro/index.html",
+    "static/css/main.55f51ede.chunk.css.map": "/formulario-de-registro/static/css/main.55f51ede.chunk.css.map",
+    "static/js/2.c09e4b1a.chunk.js.LICENSE.txt": "/formulario-de-registro/static/js/2.c09e4b1a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.93d0c548.js",
-    "static/js/2.7c23de3c.chunk.js",
+    "static/js/runtime-main.bab573ec.js",
+    "static/js/2.c09e4b1a.chunk.js",
     "static/css/main.55f51ede.chunk.css",
     "static/js/main.013e72a3.chunk.js"
   ]
