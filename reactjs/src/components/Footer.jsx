@@ -11,10 +11,10 @@ const Footer = () => {
                         
                     </div>
                         
-                        <ul className="text-center float-sm">
-                            <li className="d-inline p-4" href="#">Politicas de privacidad</li>
-                            <li className="d-inline p-4">Terminos y condiciones</li>
-                            <li className="d-inline p-4" id="text">&copy; 2021 Codealo</li>
+                        <ul className="text-center option">
+                            <li className="d-inline flex-sm-column p-2" href="#">Politicas de privacidad</li>
+                            <li className="d-inline flex-sm-column p-2">Terminos y condiciones</li>
+                            <li className="d-inline flex-sm-column p-2" id="text">&copy; 2021 Codealo</li>
                         </ul>
                         
                     </nav>

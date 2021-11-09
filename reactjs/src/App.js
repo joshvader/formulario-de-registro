@@ -4,6 +4,8 @@ import Footer from './components/Footer';
 import Formulario from './components/Formulario';
 import Header from './components/Header';
 import styled from 'styled-components';
+import wellcome from './components/img/wellcome.png';
+
 
 
 
@@ -16,10 +18,10 @@ function App() {
 	return (
     <div>
       <Header/>
+	  <img src={wellcome} className="wellcome " />
       <Formulario/>
-      <br/>
-      
-      <br/>
+       <br/>
+       <br/>
 	  
       <Footer/>
     </div>
@@ -48,3 +50,4 @@ const Contenido = styled.div`
 		border-radius: 3px;
 	}
 `;
+

@@ -7,6 +7,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.wellcome{
+  position: absolute;
+  width: 400px;
+  height: 200px;
+  left: 50%;
+  top: 380px;
+
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -52,7 +60,7 @@ input{
 select{
   text-align: center;
 }
-@media  only screen and (max-width: 600px){
+@media  only screen and (max-width: 700px){
   #codealo{
     visibility: hidden;
    /* position: absolute;
@@ -63,6 +71,27 @@ select{
     */
     
   }
+
+  .option{
+    display: grid;
+    padding: 0px;
+
+  }
+  .wellcome{
+    visibility: hidden;
+  }
   
   
+}
+@media only screen and (max-width: 769px){
+  #codealo{
+    visibility: hidden;
+  
+   }
+}
+@media only screen and (max-width:800px){
+  .wellcome{
+    visibility: hidden;
+  
+   }
 }
