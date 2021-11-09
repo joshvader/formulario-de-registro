@@ -21,7 +21,7 @@ const Formulario = () => {
 
     return (
         <Fragment>
-            <div className="text-center">
+            <div>
             <form onSubmit={handleSubmit(onSubmit)} >
                 <label className="d-block m-2">Nombre</label>
                 <input  name="name" className=" my-2 m-4 form-control-sm" placeholder="Nombre Completo"
@@ -39,7 +39,7 @@ const Formulario = () => {
             
 
             <label className="d-block m-2">Pais</label>
-            <select className="col-6  my-2 m-2" placeholder="Pais">
+            <select className="my-2 m-4 form-control-sm" placeholder="Pais">
                     <option >Ecuador</option>
                     <option >Colombia</option>
                     <option >Argentina</option>
@@ -54,7 +54,7 @@ const Formulario = () => {
             <input 
                 types="text"
                 name="email"
-                className="col-3 my-2 m-2"
+                className="my-2 m-4 form-control-sm"
                 placeholder="Correo" 
                 {...register("email", {
                     required: {
@@ -104,7 +104,7 @@ const Formulario = () => {
             
         <div class="container-fluid h-100 p-2"> 
     		<div class="row w-100 align-items-center">
-    			<div class="col text-center">
+    			<div class="col-4 my-2 m-5">
     				<button class="btn regular-button" id="btn" onclick= {ShowModal} >Registrarse</button>
     			</div>	
     		</div>
