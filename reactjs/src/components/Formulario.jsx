@@ -24,7 +24,7 @@ const Formulario = () => {
             <div className="text-center">
             <form onSubmit={handleSubmit(onSubmit)} >
                 <label className="d-block m-2">Nombre</label>
-                <input  name="name" className=" col-6 my-2 m-2" placeholder="Nombre Completo"
+                <input  name="name" className=" my-2 m-4 form-control-sm" placeholder="Nombre Completo"
                 {...register("name", {
                     required: {
                         value: true,
@@ -48,7 +48,7 @@ const Formulario = () => {
             </select>
 
             <label className="d-block m-2">Dirección</label>
-            <input  name="direccion" className="col-6 my-2 m-2" placeholder="Direccion"/>
+            <input  name="direccion" className="my-2 m-4 form-control-sm" placeholder="Direccion"/>
                 
             <text className="d-block m-2">Correo</text>
             <input 
@@ -76,7 +76,7 @@ const Formulario = () => {
             <input 
                 type="password"
                 name="password"
-                className="my-2 m-2 ph-center"
+                className="my-2 m-4  form-control-sm ph-center"
                 placeholder="Contraseña"  
                 {...register("password", {
                     required: {
@@ -98,7 +98,7 @@ const Formulario = () => {
             <input 
                 type="password"
                 name="password"
-                className="my-2 m-2"
+                className="my-2 m-4 form-control-sm"
                 placeholder="Confirmar Contraseña"    
             />
             
