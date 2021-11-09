@@ -1,5 +1,5 @@
 import React from 'react'
-
+import logo from './img/logo.png'
 const Footer = () => {
     return (
         <div>
@@ -7,7 +7,7 @@ const Footer = () => {
                 <div className="container">
                     <nav className="row">
                         <div>
-                        <img  className="img-fluid" src="./images/logo.png" id="codealo"/>
+                        <img className="img-fluid" src={logo}  id="codealo"/>
                         
                     </div>
                         

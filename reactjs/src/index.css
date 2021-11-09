@@ -52,7 +52,7 @@ input{
 select{
   text-align: center;
 }
-@media  only screen and (max-width: 360px){
+@media  only screen and (max-width: 600px){
   #codealo{
     visibility: hidden;
    /* position: absolute;
@@ -63,5 +63,6 @@ select{
     */
     
   }
+  
   
 }

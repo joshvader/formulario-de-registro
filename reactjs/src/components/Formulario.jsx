@@ -24,10 +24,10 @@ const Formulario = () => {
 
     return (
         <Fragment>
-            <div className="text-center">
+          <div>
             <form onSubmit={handleSubmit(onSubmit)} >
-                <label className="d-block m-2">Nombre</label>
-                <input  name="name" className=" col-6 my-2 m-2" placeholder="Nombre Completo"
+                <label className="d-block m-4">Nombre</label>
+                <input  name="name" className="my-2 m-4 form-control-sm" placeholder="Nombre Completo"
                 {...register("name", {
                     required: {
                         value: true,
@@ -41,8 +41,8 @@ const Formulario = () => {
           
             
 
-            <label className="d-block m-2">Pais</label>
-            <select className="col-6  my-2 m-2" placeholder="Pais">
+            <label className="d-block m-4">Pais</label>
+            <select className="my-2 m-4" placeholder="Pais">
 
                     <option >Ecuador</option>
                     <option >Colombia</option>
@@ -51,14 +51,14 @@ const Formulario = () => {
                     <option>Chile</option>
             </select>
 
-            <label className="d-block m-2">Dirección</label>
-            <input  name="direccion" className="col-6 my-2 m-2" placeholder="Direccion"/>
+            <label className="d-block m-4">Dirección</label>
+            <input  name="direccion" className="my-2 m-4 form-control-sm" placeholder="Direccion"/>
                 
-            <text className="d-block m-2">Correo</text>
+            <text className="d-block m-4">Correo</text>
             <input 
                 types="text"
                 name="email"
-                className="col-3 my-2 m-2"
+                className=" my-2 m-4 form-control-sm"
                 placeholder="Correo" 
                 {...register("email", {
                     required: {
@@ -76,11 +76,11 @@ const Formulario = () => {
             </div>
             
 
-            <label className="d-block m-2">Constraseña</label>
+            <label className="d-block m-4">Constraseña</label>
             <input 
                 type="password"
                 name="password"
-                className="my-2 m-2 ph-center"
+                className="  my-2 m-4  form-control-sm ph-center"
                 placeholder="Contraseña"  
                 {...register("password", {
                     required: {
@@ -98,17 +98,17 @@ const Formulario = () => {
                 </div>
             
             
-            <label className="d-block m-2">Reingresa la Constraseña</label>
+            <label className="d-block m-4">Reingresa la Constraseña</label>
             <input 
                 type="password"
                 name="password"
-                className="my-2 m-2"
+                className="  my-2 m-4 form-control-sm"
                 placeholder="Confirmar Contraseña"    
             />
             
         <div class="container-fluid h-100 p-2"> 
     		<div class="row w-100 align-items-center">
-    			<div class="col text-center">
+    			<div class="col-4 my-2 m-5">
     				<button class="btn regular-button" id="btn" onclick= {ShowModal} >Registrarse</button>
     			</div>	
     		</div>
