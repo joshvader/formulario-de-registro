@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/formulario-de-registro/static/css/main.80421353.chunk.css",
+    "main.css": "/formulario-de-registro/static/css/main.41175927.chunk.css",
     "main.js": "/formulario-de-registro/static/js/main.78b49325.chunk.js",
     "main.js.map": "/formulario-de-registro/static/js/main.78b49325.chunk.js.map",
     "runtime-main.js": "/formulario-de-registro/static/js/runtime-main.bab573ec.js",
@@ -10,7 +10,7 @@
     "static/js/3.4949d8fb.chunk.js": "/formulario-de-registro/static/js/3.4949d8fb.chunk.js",
     "static/js/3.4949d8fb.chunk.js.map": "/formulario-de-registro/static/js/3.4949d8fb.chunk.js.map",
     "index.html": "/formulario-de-registro/index.html",
-    "static/css/main.80421353.chunk.css.map": "/formulario-de-registro/static/css/main.80421353.chunk.css.map",
+    "static/css/main.41175927.chunk.css.map": "/formulario-de-registro/static/css/main.41175927.chunk.css.map",
     "static/js/2.c09e4b1a.chunk.js.LICENSE.txt": "/formulario-de-registro/static/js/2.c09e4b1a.chunk.js.LICENSE.txt",
     "static/media/codealo.f32421ae.png": "/formulario-de-registro/static/media/codealo.f32421ae.png",
     "static/media/logo.df4159a9.png": "/formulario-de-registro/static/media/logo.df4159a9.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.bab573ec.js",
     "static/js/2.c09e4b1a.chunk.js",
-    "static/css/main.80421353.chunk.css",
+    "static/css/main.41175927.chunk.css",
     "static/js/main.78b49325.chunk.js"
   ]
 }
