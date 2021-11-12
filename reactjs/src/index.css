@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 .wellcome{
@@ -90,10 +91,16 @@ select{
     visibility: hidden;
   
    }
+   body {
+    overflow-x: hidden;
+   }
 }
 @media only screen and (max-width:800px){
   .wellcome{
     visibility: hidden;
   
+   }
+   body{
+    overflow-x: hidden;
    }
 }
