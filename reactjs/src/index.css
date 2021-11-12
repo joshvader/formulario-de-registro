@@ -34,6 +34,7 @@ padding: 36px;
 
 background: #1F2235;
 border-radius: 18px 18px 0px 0px;
+overflow-x: hidden;
 }
 
 #text {
